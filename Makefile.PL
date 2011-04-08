@@ -11,6 +11,6 @@ recommends 'Furl';
 test_requires 'HTTP::Request::Common';
 test_requires 'Test::TCP';
 
-auto_repository;
+auto_set_repository;
 
 WriteAll;
