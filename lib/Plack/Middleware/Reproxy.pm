@@ -7,10 +7,6 @@ sub call {
     my ($self, $env) = @_;
 
     my $res = $self->app->( $env );
-    # if this is HEAD request, the response is pass through
-    if ($env->{REQUEST_METHOD} eq 'HEAD') {
-        return $res;
-    }
 
     # Otherwise, wait for headers
     return $self->response_cb( $res, sub {
