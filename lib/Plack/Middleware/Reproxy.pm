@@ -1,7 +1,7 @@
 package Plack::Middleware::Reproxy;
 use strict;
 use parent qw(Plack::Middleware);
-our $VERSION = '0.00001';
+our $VERSION = '0.00002';
 
 sub call {
     my ($self, $env) = @_;
