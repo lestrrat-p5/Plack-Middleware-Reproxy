@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.00004 - Oct 20 2012
+    - No code change
+    - Upgrade to Module::Install 1.06
+      (see http://weblog.bulknews.net/post/33907905561/do-not-ship-modules-with-module-install-1-04)
+
 0.00003 - Jan 27 2012
     * Don't barf if Furl is not present (rt #74339)
 
